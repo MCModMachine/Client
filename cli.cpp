@@ -1,7 +1,19 @@
-#import <iostream>
+/* cli.cpp
+	Contributors:
+		Tommy Miller
+		Gaelan
+	Copyright:
+		TBD
+*/
 
-using namespace std;
+#include <iostream>
+#include "ClientApp.h"
+
+using std::cout;
+using std::endl;
 
 int main() {
-    cout << "Hello World";
+	cout << "Client Starting..." << endl;
+	ClientApp cli;
+	return cli.Start(); //returns the CLI's exit code.
 }
