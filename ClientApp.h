@@ -9,7 +9,8 @@ Class Purpose:
 	Provide User Interface
 	Act based off of UI.
 */
-#pragma once
+#ifndef CLIENTAPP_H
+#define CLIENTAPP_H
 
 class ClientApp
 {
@@ -18,3 +19,5 @@ public:
 private:
 
 };
+
+#endif

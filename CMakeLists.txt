@@ -4,5 +4,5 @@ cmake_minimum_required(VERSION 3.5)
 project(mcubed-client)
 
 #This tells CMake to fib.c and name it fibonacci
-add_executable(mcubed cli.cpp)
+add_executable(mcubed cli.cpp ClientApp.cpp)
 

@@ -12,7 +12,8 @@
 using std::cout;
 using std::endl;
 
-int main() {
+int main()
+{
 	cout << "Client Starting..." << endl;
 	ClientApp cli;
 	return cli.Start(); //returns the CLI's exit code.
