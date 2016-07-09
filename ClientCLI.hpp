@@ -1,4 +1,4 @@
-/* ClientApp.h
+/* ClientCLI.h
 Contributors:
 	Tommy Miller
 Copyright:
@@ -11,7 +11,7 @@ Class Purpose:
 */
 #pragma once
 
-class ClientApp
+class ClientCLI
 {
 public:
 	int Start();

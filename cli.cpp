@@ -1,19 +1,19 @@
 /* cli.cpp
 	Contributors:
 		Tommy Miller
-		Gaelan
+		Gaelan Steele
 	Copyright:
 		TBD
 */
 
 #include <iostream>
-#include "ClientApp.h"
+#include "ClientCLI.hpp"
 
 using std::cout;
 using std::endl;
 
 int main() {
 	cout << "Client Starting..." << endl;
-	ClientApp cli;
+	ClientCLI cli;
 	return cli.Start(); //returns the CLI's exit code.
 }
